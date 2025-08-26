@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+
+  <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+  <link rel="stylesheet" href="breakpoint.css" />
+  <title>Mi Portafolio</title>
+</head>
+
+<body>
+  <!-- ==========================================
+                    Header
+    =========================================== -->
+  <header class="header">
+    <a href="#" class="logo">Full<span>Stack</span></a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Inicio</a>
+      <a href="#about">Acerca De Mi</a>
+      <a href="#services">Servicios</a>
+      <a href="#portfolio">Portafolio</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+  
+
+  <!-- ==========================================
+                  Home Section
+    =========================================== -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hola soy </h3>
+      <h1>Nathan</h1>
+      <h3>Y yo soy un <span class="multiple-text"></span></h3>
+      <div class="social-media">
+        <a href="https://www.facebook.com/share/1E9X3M1JMt/"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/nathanmoreno8739?igsh=MTd1YTRkY2thc3lqZg=="><i
+            class="bx bxl-instagram-alt"></i></a>
+        <a href="https://wa.me/7228733168"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://github.com/NATHANHERNANDEZ14" target="_blank"><i class="bx bxl-github"></i></a>
+      </div>
+      <!-- add link for your CV into `href` -->
+      <a href="proyectos/cv.pdf" class="btn" dowland>Descargar CV</a>
+    </div>
+
+    <div class="home-img">
+      <video src="assets/image/videoperfil.mp4" controls autoplay muted loop>
+  Tu navegador no soporta el elemento de video.
+</video>
+    </div>
+  </section>
+
+  <!-- ==========================================
+                  Acerca Seccion
+    =========================================== -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="assets/image/perfil2.png" alt="about" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">Acerca <span>De Mi</span></h2>
+      <p>
+        ¡Hola! Soy Nathan, Técnico Universitario en TI, área Desarrollo de Software Multiplataforma.
+        Apasionado por la programación, me especializo en Frontend y Backend, desarrollando soluciones
+        de calidad con un enfoque en aplicaciones web y móviles.Aunque no cuento con experiencia laboral
+        formal, mi formación académica y proyectos universitarios me han preparado para trabajar con bases
+        de datos (MySQL, MongoDB), integración de APIs y despliegue en producción. Me caracterizo por mi
+        compromiso, adaptabilidad y capacidad para trabajar bajo presión, siempre buscando mejorar y perfeccionar
+        mis habilidades.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+                  Services Section
+    =========================================== -->
+  <section class="services" id="services">
+    <h2 class="heading">Mis <span>Servicios</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Front End</h3>
+        <p>
+          Soy un desarrollador apasionado por el software con experiencia en la creación de interfaces de
+          usuario dinámicas y atractivas. Mi enfoque está en diseñar y desarrollar sitios web y aplicaciones
+          móviles responsivas, optimizadas para ofrecer una experiencia de usuario fluida y efectiva. Utilizo
+          tecnologías como HTML, CSS, JavaScript, React, Bootstrap, y sistemas de control de versiones como Git.
+          Me aseguro de que cada proyecto no solo sea funcional, sino también intuitivo y visualmente atractivo,
+          siempre enfocado en la usabilidad y accesibilidad.
+        </p>
+        <a href="proyectos/RESULTADOS OBTENIDOS .pdf" class="btn">Leer más</a>
+      </div>
+
+      <div class="services-box">
+        <i class="fa-solid fa-layer-group"></i>
+        <h3>Fullstack</h3>
+        <p>
+          Como Técnico en Desarrollo de Software y estudiante de Ingeniería, me especializo en el desarrollo 
+          Fullstack, creando soluciones completas tanto en el Frontend como en el Backend. Durante mi estancia 
+          en la universidad, aprendí sobre el diseño e implementación de aplicaciones web y móviles, integración
+          de APIs con bases de datos, validación de formularios y despliegue en producción. Me adapto rápidamente
+          a nuevas tecnologías y me apasiona construir sistemas eficientes, escalables y funcionales.
+        </p>
+        <a href="proyectos/RESULTADOS OBTENIDOS .pdf" class="btn">Leer más</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bx-data"></i>
+        <h3>Mantenimiento de Hardware y Software</h3>
+        <p>
+          Realizo limpieza y mantenimiento de hardware, incluyendo la eliminación de polvo en componentes internos, 
+          ventiladores, fuente de alimentación y periféricos. También instalo y actualizo componentes como memoria RAM 
+          y discos de estado sólido (SSD) para mejorar el rendimiento del equipo.
+        En el área de software, me encargo de la instalación y configuración de programas esenciales, como Microsoft Word 
+        con licencia permanente, así como cualquier otro software requerido por el cliente. Además, realizo restauraciones
+         de laptops con respaldo de datos, optimización del sistema operativo, eliminación de programas no deseados y 
+         actualización de aplicaciones. También ofrezco servicios de formateo y reinstalación de software para garantizar
+        el mejor desempeño del equipo.
+        </p>
+
+        <a href="#" class="btn">Leer más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+                  Portafolio Seccion
+    =========================================== -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Mis <span>Projectos academicos</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="assets/image/img2.png" alt="portfolio" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Provident, nihil.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/image/image.png" alt="portfolio" />
+        <div class="portfolio-layer">
+          <h4>Aplicación movil</h4>
+          <p>
+            Planificador de Gastos desarrollado en javascript
+          </p>
+          <a href="proyectos/Planificador de Gastos-resultados.pdf"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/image/citas-veterinaria.jpg" alt="portfolio" />
+        <div class="portfolio-layer">
+          <h4>Aplicación movil</h4>
+          <p>
+            Administrador de Citas Veterinaria desarrollado en JavaScript.
+          </p>
+          <a href="proyectos/Citas Veterinarias Resultados de la aplicación.pdf"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/image/img4.png" alt="portfolio" />
+        <div class="portfolio-layer">
+          <h4>Sitio Web</h4>
+          <p>
+            Sistema de inventario desarrolado en laravel, php, con base de datos mysql
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/image/img6.png" alt="portfolio" />
+        <div class="portfolio-layer">
+          <h4>Aplicación Movil </h4>
+          <p>
+            Planificador de gastos desarrollado en JavaScript.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="assets/image/merrash.jpg" alt="portfolio" />
+        <div class="portfolio-layer">
+          <h4>Sitio Web </h4>
+          <p>
+            Sitio web para gestión total del spa.
+          </p>
+          <a href="proyectos/Sitio Web merrash.pdf"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+                  Contacto Seccion
+    =========================================== -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Mi <span>contacto</span></h2>
+    
+      <form id="contact-form">
+        <div class="input-box">
+          <input type="text" id="nombre" placeholder="Nombre completo" name="Nombre" required />
+          <input type="email" id="email" placeholder="Dirección de correo electrónico" name="Email" required />
+        </div>
+    
+        <div class="input-box">
+          <input type="number" id="telefono" placeholder="Teléfono móvil" name="Teléfono" required />
+          <input type="text" id="asunto" placeholder="Asunto del correo electrónico" name="Asunto" required />
+        </div>
+        <textarea id="mensaje" name="Mensaje" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
+        <input type="submit" value="Enviar mensaje" class="btn" />
+      </form>
+    </section>
+    
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', function (e) {
+        e.preventDefault(); // Evita el envío y recarga de la página
+    
+        // Obtener los valores del formulario
+        const nombre = document.getElementById('nombre').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const telefono = document.getElementById('telefono').value.trim();
+        const asunto = document.getElementById('asunto').value.trim();
+        const mensaje = document.getElementById('mensaje').value.trim();
+    
+        // Validar que los campos no estén vacíos
+        if (!nombre || !email || !telefono || !asunto || !mensaje) {
+          alert("Por favor, completa todos los campos antes de enviar el mensaje.");
+          return false;
+        }
+    
+        // Crear el mensaje para WhatsApp con los datos del formulario (sin las etiquetas)
+        const mensajeWhatsApp = `${nombre} ${email} ${telefono} ${asunto} ${mensaje}`;
+    
+        // Reemplaza 'tu-numero-de-whatsapp' con tu número real (ejemplo: 521234567890)
+        const whatsappURL = `https://wa.me/7293479153?text=${encodeURIComponent(mensajeWhatsApp)}`;
+    
+        // Abrir WhatsApp en una nueva pestaña sin recargar el formulario
+        window.location.href = whatsappURL; // Usar window.location.href en lugar de window.open
+    
+        return false; // Evita que el formulario se resetee
+      });
+    </script>
+    
+    
+
+
+  <!-- ==========================================
+                    Footer
+    =========================================== -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2025 by Callmerev | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+                  Scroll Reveal
+    =========================================== -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- ==========================================
+                   Typed Js
+    =========================================== -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- ==========================================
+                  Custom Js
+    =========================================== -->
+  <script src="main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuIcon = document.getElementById('menu-icon');
+      const navbar = document.querySelector('.navbar');
+
+      menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
