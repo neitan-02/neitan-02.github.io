@@ -29,7 +29,7 @@ export default function Home() {
           </div>
 
           <Paragraph className="max-w-2xl mt-4 text-white text-lg md:text-xl font-medium leading-relaxed drop-shadow-md">
-            Ingeniero en Desarrollo de Software y Desarrollador Full Stack <Highlight className="text-blue-300 font-bold bg-white/10 px-1.5 py-0.5 rounded">especializado en el diseño e implementación de sistemas empresariales a medida.</Highlight> Construyo aplicaciones web escalables centradas en el rendimiento, aplicando arquitecturas backend robustas y creando interfaces de usuario intuitivas para plataformas de gestión operativa.
+            Ingeniero en Desarrollo de Software <Highlight className="text-blue-300 font-bold bg-white/10 px-1.5 py-0.5 rounded">especializado en el diseño e implementación de sistemas empresariales a medida.</Highlight> Construyo aplicaciones web escalables centradas en el rendimiento, aplicando arquitecturas backend robustas y creando interfaces de usuario intuitivas para plataformas de gestión operativa.
           </Paragraph>       
         </Container>
       </div>

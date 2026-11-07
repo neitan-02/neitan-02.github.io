@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Nathan Hernandez - Desarrollador Full Stack",
   description:
-    "Ingeniero en Desarrollo de Software y Desarrollador Full Stack especializado en el diseño e implementación de sistemas empresariales a medida.",
+    "Ingeniero en Desarrollo de Software especializado en el diseño e implementación de sistemas empresariales a medida.",
 };
 
 export default function RootLayout({
