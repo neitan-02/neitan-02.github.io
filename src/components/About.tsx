@@ -15,19 +15,13 @@ export default function About() {
     <div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-10 my-10">
         {images.map((image, index) => (
-          <motion.div
-            key={`${image}-${index}`}
+          <motion.div key={`${image}-${index}`}
             initial={{ opacity: 0, y: -50, rotate: 0 }}
             animate={{ opacity: 1, y: 0, rotate: index % 2 === 0 ? 3 : -3 }}
             transition={{ duration: 0.2, delay: index * 0.1 }}
           >
-            <Image
-              src={image}
-              width={200}
-              height={400}
-              alt="Nathan Hernandez - Desarrollador Full Stack"
-              className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60 hover:rotate-0 transition duration-200"
-            />
+            <Image src={image} width={200} height={400} alt="Nathan Hernandez - Desarrollador Full Stack"
+              className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60 hover:rotate-0 transition duration-200"/>
           </motion.div>
         ))}
       </div>
@@ -37,8 +31,8 @@ export default function About() {
           Hola, soy Nathan Hernandez, tengo 21 años y radico en Toluca, México. Soy Ingeniero en Desarrollo y Gestión de Software y Desarrollador Full Stack. ¡Bienvenido a mi espacio digital!
         </Paragraph>
         
-        <Paragraph className="mt-4 font-medium italic text-gray-700 dark:text-gray-300">
-          "El verdadero impacto tecnológico no se logra trabajando hasta el agotamiento, sino estructurando soluciones inteligentes y escalables."
+        <Paragraph className="mt-6 rounded-r-xl border-l-4 border-sky-600 bg-sky-50 py-4 pl-5 pr-4 text-base md:text-lg font-semibold italic tracking-tight !text-slate-900 shadow-sm">
+          &ldquo;El verdadero impacto tecnológico no se logra trabajando hasta el agotamiento, sino estructurando soluciones inteligentes y escalables.&rdquo;
         </Paragraph>
 
         <Paragraph className="mt-4">
