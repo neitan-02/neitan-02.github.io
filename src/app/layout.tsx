@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Nathan Hernandez - Desarrollador Full Stack",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Ingeniero en Desarrollo de Software y Desarrollador Full Stack especializado en el diseño e implementación de sistemas empresariales a medida.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es" translate="no" className="notranslate">
       <body
         className={twMerge(
           inter.className,
