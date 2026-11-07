@@ -26,12 +26,12 @@ export default function RootLayout({
       <body
         className={twMerge(
           inter.className,
-          "flex antialiased h-screen overflow-hidden bg-gray-100"
+          "flex flex-col lg:flex-row min-h-screen lg:h-screen lg:overflow-hidden bg-gray-100 overflow-x-hidden"
         )}
       >
         <Sidebar />
-        <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
-          <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
+        <div className="flex-1 bg-gray-100 lg:pl-2 lg:pt-2 min-w-0 flex flex-col">
+          <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto px-4 sm:px-8 py-6 lg:p-10">
             {children}
             <Footer />
           </div>
